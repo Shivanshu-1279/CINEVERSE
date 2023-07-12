@@ -1,0 +1,95 @@
+.login{
+    width: 100vw;
+    height: 100vw;    
+    background: 
+    linear-gradient(to bottom,
+     rgba(0,0,0,0) 0%,
+     rgba(0,0,0,1) 100%
+     ), 
+     url("https://help.nflxext.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png")  center;
+     background-size: cover;
+  //    background-image: 1310px 11222px;
+  margin: -8px;
+  // position: relative;
+
+  //   object-fit: cover;
+  //   top: 0;
+  //   bottom: -44px;
+    color: white;
+
+    .top{
+      .wrapper{
+
+          padding: 15px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .logo{
+              height: 70px;
+              cursor: pointer;
+            }
+
+      }
+    }
+
+    .container{
+      width: 100%;
+      height: 80%;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+       // padding-top: 0px;
+       margin-top: -8px;
+        // color: white;
+
+        form{
+            width: 300px;
+            height: 300px;
+            padding: 30px;
+            border-radius: 10px;
+            // background-color: black;
+            background-color: rgba(0,0,0,.75);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+         
+            input{
+                height: 40px;
+                border-radius: 5px;
+                // background-color: grey;
+                background: #333;
+                color: white;
+                padding-left: 10px;
+
+                &::placeholder{
+                    color: lightgray;
+                }
+            }
+
+            button{
+               height: 40px;
+               border-radius: 6px;
+               background-color: red;
+                color: white;
+                border: none;
+                font-size: 18px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+
+            span{
+                color: lightgray;
+
+                b{
+                  cursor: pointer;
+                  color: white;
+                  padding-left: 10px;
+                }
+            }
+        }
+
+    }
+}
